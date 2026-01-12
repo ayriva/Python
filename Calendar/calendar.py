@@ -8,12 +8,13 @@ Calendar
 
 from time import sleep, strftime
 
-name = 'Alex'
 calendar = {}
 
 def welcome():
-  print('Hello, ' + name + '!')
-  print('calendar is starting...')
+  print('Welcome in Calendar!')
+  name = input('What\'s your name?\n')
+  print('Hi, ' + name.capitalize() + '!')
+  print('Calendar is starting...')
   sleep(1)
   print('Today is: ' + strftime('%A %B %d, %Y'))
   print('Time: ' + strftime('%H:%M:%S'))

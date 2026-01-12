@@ -1,4 +1,5 @@
 # Bank App
+Simple bank app with login, deposit, withdraw functions.
 
 ## Functions
 
